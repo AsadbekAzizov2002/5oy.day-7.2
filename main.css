@@ -1,0 +1,33 @@
+.box{
+    background-color: red;
+    height: 200px;
+    width: 300px;
+}
+
+
+.active{
+    background-color:green;
+
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.links{
+    color: #000;
+    text-decoration: none;
+}
+.active-link{
+    color: red;
+}
+.wrapper{
+    display: flex;
+    grid-template-columns: repeat(4.1fr);
+    gap: 20px;
+}
